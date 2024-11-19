@@ -45,14 +45,15 @@ A FastAPI-based REST API for managing wildlife conservation activities, includin
 ## Setup Instructions
 
 1. Clone the repository
-bash
+
 git clone https://github.com/your-username/wildlife-conservation-fastapi.git
+
 cd wildlife-conservation-fastapi
 
 
 2. Create a virtual environment
 
-bash
+
 python -m venv fastapi-env
 
 
@@ -82,19 +83,6 @@ uvicorn app.main:app --reload
 - API endpoints: `http://127.0.0.1:8000`
 - Interactive API documentation: `http://127.0.0.1:8000/docs`
 - Alternative API documentation: `http://127.0.0.1:8000/redoc`
-
-## Project Structure
-
-wildlife-conservation-fastapi-backend/
-├── app/
-│ ├── init.py
-│ ├── main.py # FastAPI application and endpoints
-│ ├── crud.py # CRUD operations
-│ ├── models.py # SQLAlchemy models
-│ ├── schemas.py # Pydantic models
-│ └── database.py # Database configuration
-├── requirements.txt
-└── README.md
 
 
 ## API Usage Examples
